@@ -2,7 +2,7 @@ const gbin = () => {
 	return `       
 	*PACKS:*
     
-	*𝓥𝓘𝓒𝓣𝓞𝓡 𝓝𝓞 𝓒𝓞𝓜𝓐𝓝𝓓𝓞 ⚜️🐊*
+	*CORVO DESTROI ⚜️🐊*
 	
 	Belle delphine : https://photos.app.goo.gl/Jr4Qk1dFSJepPdRc7 
 	

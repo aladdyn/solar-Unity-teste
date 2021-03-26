@@ -2,7 +2,7 @@ const gpessoa = (prefix) => {
 
 return `*GERADORE DE DADOS PESSOAIS:*
 
-*𝗔𝗗𝗠 𝗩𝗜𝗖𝗧𝗢𝗥 𝗡𝗢 𝗖𝗢𝗠𝗔𝗡𝗗𝗢* 🐒🚩
+*CORVO COMANDA * 🐒🚩
 
 nome: Ester Giovanna Alice Nunes
 idade: 59

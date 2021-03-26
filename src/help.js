@@ -11,12 +11,8 @@ const help = (prefix) => {
 ╠══✪〘 ☀️𝐍𝐎𝐕𝐎𝐒☀️ 〙✪══
 ║
 ║⚡ *${prefix}animecry*
-║⚡ *${prefix}gcpf [premium]*
 ║⚡ *${prefix}gay [@]*
 ║⚡ *${prefix}packs [premium]*
-║⚡ *${prefix}destrava [premium]*
-║⚡ *${prefix}gpessoa [premium]*
-║⚡ *${prefix}wame*
 ║⚡ *${prefix}spamcall*
 ║⚡ *${prefix}play (nome da msc)*
 ║⚡ *${prefix}pub*
@@ -55,8 +51,6 @@ const help = (prefix) => {
 ║⚡ *${prefix}limpar*
 ║⚡ *${prefix}bc [ *texto* ]*
 ║⚡ *${prefix}bemvindo [1/0]*
-║⚡ *${prefix}help1*
-║⚡ *${prefix}dono*
 ║⚡ *${prefix}owner*
 ║⚡ *${prefix}tts [texto]*
 ║⚡ *${prefix}setnome*
@@ -72,7 +66,6 @@ const help = (prefix) => {
 ║
 ║📷 *${prefix}loli* [off]
 ║📷 *${prefix}loli1*
-║📷 *${prefix}dono*
 ║📷 *${prefix}boanoite*
 ║📷 *${prefix}bomdia*
 ║📷 *${prefix}boatarde*
@@ -95,17 +88,12 @@ const help = (prefix) => {
 ╠══✪〘 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 〙✪══
 ║
 ║⚡ *${prefix}dado*
-║⚡ *${prefix}cekvip*
 ║⚡ *${prefix}premiumlist*
 ║⚡ *${prefix}delete*
 ║⚡ *${prefix}modapk*
 ║⚡ *${prefix}indo10*
 ║⚡ *${prefix}daftarvip [para virar Premium]*
-║⚡ *${prefix}qrcode*
-║⚡ *${prefix}gcpf*
 ║⚡ *${prefix}packs*
-║⚡️ *${prefix}destrava*
-║⚡ *${prefix}gpessoa*
 ║
 ╠══✪〘 𝐆𝐑𝐔𝐏𝐎 〙✪══
 ║
@@ -223,4 +211,5 @@ exports.help = help
 
 
  
+
 

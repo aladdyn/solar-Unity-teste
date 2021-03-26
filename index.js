@@ -291,11 +291,11 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD SOLAR UNITY BOT*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD CORVO BOT*',
 					benned: 'Você foi banido, por favor, contate o proprietário para saber mais',
-					ownerG: '[❗] CORVO? Este é um recurso especial para o SOLAR UNITY BOT ❌',
+					ownerG: '[❗] CORVO? Este é um recurso especial para o CORVO BOT ❌',
 					ownerB: '[❗] ADM CORVO?? Este é um recurso especial para o CORVO❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de ADM VICTOR. Registre-se para fazer amizade com o bot ADM VICTOR por meio, \n\nCommand : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar CORVO|13\n\n──「 SOLAR UNITY 」──`,
+					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de ADM VICTOR. Registre-se para fazer amizade com o bot CORVO por meio, \n\nCommand : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar CORVO|14\n\n──「 ENGENIOUS 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
@@ -1408,7 +1408,7 @@ if (text.includes("placa"))
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *𝓑𝓞𝓣 𝓥𝓘𝓒𝓣𝓞𝓡* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *SOLAR UNITY BOT * 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                   case 'qrcode':
@@ -1422,7 +1422,7 @@ if (text.includes("placa"))
 		        case 'wame':
                   client.updatePresence(from, Presence.composing) 
                   options = {
-                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*ADM VICTOR NO CONTROLE🐊🚩*`,
+                  text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : *@${sender.split("@s.whatsapp.net")[0]}*\n\nSeu link WhatsApp:\n\n*https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n\n*Ou*\n\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*\n\n*CORVO*`,
                   contextInfo: { mentionedJid: [sender] }
                   }
                   client.sendMessage(from, options, text, { quoted: mek } )
@@ -2467,7 +2467,7 @@ break
 					await limitAdd(sender) 
 					break 
 					
-// recursos anime, random @ADM VICTOR domina irmão
+// recursos anime, random @ADM CORVO domina irmão
 
                 case 'anjing':
                    if (!isGroup) return reply(ind.groupo())
